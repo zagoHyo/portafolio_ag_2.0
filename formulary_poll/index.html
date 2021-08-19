@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+  </head>
+  <body>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://github.com/DTony-404/portafolio_ag_2.0">
+            <h2 class="title has-text-link is-link">Dtony-404</h2>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </nav>
+  <section >
+    <div class="columns section">
+      <div class="column">
+        <h1 class="is-spaced title is-1 is-warning is-flex is-flex-direction-row is-justify-content-center" id="poll">Poll</h1>
+        <div class="animar">
+          
+        </div>
+      </div>
+      <div>
+
+      <div class="container column is-two-quarter box" id="form">
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Name" id="name">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Age</label>
+          <div class="control has-icons-right">
+            <input class="input" type="number" placeholder="Age" id="age">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Personality</label>
+          <div class="control has-icons-right">
+            <input class="input" type="text" placeholder="personality" id="personality">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">What are you passionate about?</label>
+          <div class="control">
+            <div class="select">
+              <select id="pasion">
+                <option value="0">Select</option>
+                <option value="The music">Music</option>
+                <option value="The movies">Movies</option>
+                <option value="The games">Games</option>
+                <option value="The programing">Programming</option>
+                <option value="the trips">To travel</option>
+                <option value="The reading">Read</option>
+                <option value="The technology">Technology</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Message</label>
+          <div class="control">
+            <textarea class="textarea" placeholder="Textarea" id="mensage"></textarea>
+          </div>
+        </div>
+        
+        <div class="field is-grouped">
+          <div class="control">
+            <button class="button is-link" id="submit">Submit</button>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light" id="visualizar">Visualizar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="./app/app.js"></script>
+  </section>
+  </body>
+</html>
