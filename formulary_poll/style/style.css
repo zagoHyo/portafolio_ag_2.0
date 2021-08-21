@@ -1,9 +1,16 @@
 body{
     width:100vw;
-    height:100vh;
+    height:140vh;
     background: url("./image/Mar.jpg");
     background-size:1300px 900px;
 }
+
+@media (min-width: 1024px){
+    body{
+    background-size:cover
+    }
+}
+
 nav.navbar{
     background-color: rgba(247, 0, 255, 0.158);
 }
