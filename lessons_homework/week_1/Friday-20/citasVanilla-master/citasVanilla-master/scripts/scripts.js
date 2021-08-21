@@ -73,7 +73,7 @@ function subirLocalRegister(){
     }
     login_register.innerHTML = `
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-        <strong>Hola querido usuario!</strong> Existen fallas en su nombre o contraseña, verifique que todo este bien por favor
+        <strong>Hola querido usuario!</strong> Bienvenido
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
     `
