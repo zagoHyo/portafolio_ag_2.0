@@ -1,7 +1,7 @@
 let main = `
 <section class="hero is-info is-fullheight is-flex-direction-column m-0 py-0">
 <div>
-    <div class="hero-body is-flex-direction-column">
+    <div class="hero-body is-flex-direction-column mt-5">
       <h2 class="title">International and national shipments, enter your address and email</h2>
       <div class="is-flex-direction-row is-flex-desktop is-flex-direction-column-mobile">
           <div class="field column">
@@ -47,7 +47,9 @@ let main = `
     </div>
     <div id="alert" class="m-3"></div>
     </div>
-    <!-- cartas -->                
+    <!-- cartas -->      
+    <div id="features"></div> 
+
     <div class="section">
     <div class="box">
       <article class="media">
@@ -100,10 +102,12 @@ let main = `
       </article>
     </div>
 
+    <div id="how_it_works"></div>
     <div class="hero-body is-justify-content-center">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/BUvEEVq4woU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
     </div>
 
+    <div id="pricing"></div>
     <div class="hero-body is-flex-direction-column is-flex-mobile is-flex-direction-row is-flex-desktop">
         <div class="item column">
             <div class="card box">
