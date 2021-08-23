@@ -1,8 +1,4 @@
-import { main } from "./module/hero.js"
 let alert = document.getElementById('alert')
-let content = document.getElementById('content')
-content.innerHTML = main
-
 function conseguirdatos(){
     let email = document.getElementById('email').value
     let country = document.getElementById('select_country').value
@@ -24,7 +20,6 @@ function conseguirdatos(){
             Our logistics operator will send the product to the address: ${direction}<br>
             Which is in: ${country}<br>
             Check the span area in your mail ${email} to know the details of your product.
-            .
         </div>  
         `
     }
