@@ -6,7 +6,7 @@ let introduction = `
     <p>In the first part of this manual we will learn what React is, clarifying the main features of this library for creating user interfaces for the web. In addition, throughout the first articles we will have the opportunity to make our first examples with React. We have two approaches to introducing React, one from a software package called Create React App, which would be the most advisable way to start a project, and another approach to the first steps starting from scratch in a completely empty project. This second introduction to the first steps with React is more experimental and therefore less used, but it can provide us with interesting data to better understand the internal functioning of the library and the anchoring system to incorporate components into any web project.
     </p>
     <div class="text-center">
-    <img class="rounded" src="https://lh3.googleusercontent.com/proxy/WX2Gb6utqZEiNUrWv99FCnWO_iVbpphV1x3384Xmq0bjxuWuQU15C2gS6BweQKZvO61O9Svo0ZQZmoSxg1T-8rUJzeZI6o8pLCW-LyxXA2GMDCV7VRLUFQ"  width="300px" >
+    <img class="rounded" src="https://miro.medium.com/max/1200/1*TpK5V6D6Gd0IKwd1mdNF4A.png"  width="300px" >
     </div>
 `
 
