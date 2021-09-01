@@ -20,6 +20,13 @@
         "Year": "2015",
         "Poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6bf4fe463fc97e53495f870e5ddcfca864c129d69e4b60e7d0b5793ac92f2ac5._V_SX450_.jpg",
         "Type": "movie"
+      },
+      {
+        "id": "4",
+        "Title": "Star Wars: The Force Awakens",
+        "Year": "2015",
+        "Poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6bf4fe463fc97e53495f870e5ddcfca864c129d69e4b60e7d0b5793ac92f2ac5._V_SX450_.jpg",
+        "Type": "movie"
       }
     ]
   }
