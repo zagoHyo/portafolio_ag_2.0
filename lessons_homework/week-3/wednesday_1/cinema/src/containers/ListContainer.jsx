@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Cards from '../components/Cards'
 import 'bootswatch/dist/solar/bootstrap.min.css'
 
-
 export default class ListContainer extends Component {
     constructor(){
         super();
@@ -10,7 +9,6 @@ export default class ListContainer extends Component {
             peli: []
         }
     }
-
     async componentDidMount() {
         const url = 'http://localhost:4000/peliculas';
             const resp = await fetch(url);
@@ -20,12 +18,12 @@ export default class ListContainer extends Component {
     }
     render(){
         return(
-            <div>
+            <div className="container row row-cols-1 row-cols-md-4 g-4 py-5 text-center ms-5">
                 {
                     this.state.peli.map((movie,index) => {
                         return(
-                            <div>
-                                <Cards  key={movie.id} movie={movie} />
+                            <div key={index}>
+                                <Cards movie={movie} />
                             </div>
                         )
                     })
@@ -34,13 +32,4 @@ export default class ListContainer extends Component {
             </div>    
         )
     }
-
-
-    // render() {
-    //     return (
-    //         <div>
-    //             <Cards />
-    //         </div>
-    //     )
-    // }
 }
