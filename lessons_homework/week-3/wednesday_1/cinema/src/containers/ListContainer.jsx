@@ -10,11 +10,10 @@ export default class ListContainer extends Component {
         }
     }
     async componentDidMount() {
-        const url = 'http://localhost:4000/peliculas';
+        const url ="https://www.omdbapi.com/?i=tt3896198&apikey=3c86e97&s=batman";
             const resp = await fetch(url);
-            const data = await resp.json()
-            console.log(data)
-            this.setState({peli:data})
+            const {Search} = await resp.json()
+            this.setState({peli:Search})
     }
     render(){
         return(
