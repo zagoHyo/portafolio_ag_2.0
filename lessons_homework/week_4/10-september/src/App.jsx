@@ -6,7 +6,6 @@ export default function App(){
     const [usuario, setUsuario] = useState([]);
 
     const [values, setValues] = useState({
-        id: '',
         documento: '',
         nombres: '',
         apellidos: '',
@@ -16,7 +15,7 @@ export default function App(){
         imagen: ''
     })
 
-    const {id, documento, nombres, apellidos, telefono, celular, direccion, imagen} = values;
+    const {documento, nombres, apellidos, telefono, celular, direccion, imagen} = values;
 
     useEffect(() => {
         peticionGek();
@@ -51,10 +50,6 @@ export default function App(){
         <div>
             <h1>Registro</h1>
             <form>
-    
-                <label>id</label>
-                <input type="text" id="id" name="id" value={id} />
-
                 <label>Documento</label>
                 <input type="text" id="documento" name="documento" value={documento} onChange={handleChange}/>
 
@@ -78,7 +73,7 @@ export default function App(){
 
                 <br />
 
-                <input type="button" onClick={() => peticionPost()} value="Enviar" />
+                <button type="button" onClick={() => peticionPost()}>Enviar</button>
 
             </form>
             <table>
@@ -97,7 +92,7 @@ export default function App(){
                 <tbody>
                     {
                         usuario.map(user => (
-                            <tr>
+                            <tr key={user.id}>
                                 <td>{user.id}</td>
                                 <td>{user.documento}</td>
                                 <td>{user.nombres}</td>
